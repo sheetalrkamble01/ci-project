@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: ci-app
-        image: sheetalrkamble01/ci-python-app:IMAGE_TAG
+        image: sheetalrkamble01/ci-python-app:BUILD_TAG
 
         imagePullPolicy: Always
 
