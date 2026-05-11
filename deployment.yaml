@@ -19,7 +19,8 @@ spec:
     spec:
       containers:
       - name: ci-app
-        image: sheetalrkamble01/ci-python-app:v1
+        image: sheetalrkamble01/ci-python-app:24
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 80
